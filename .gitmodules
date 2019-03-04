@@ -1,0 +1,7 @@
+[submodule "mysite/themes/kiss"]
+	path = mysite/themes/kiss
+	url = https://github.com/Analyse4/kiss.git
+[submodule "mysite/public"]
+	path = mysite/public
+	url = git@github.com:Analyse4/analyse4.github.io.git
+	branch = master

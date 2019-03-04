@@ -1,0 +1,65 @@
+baseurl = "https://analyse4.github.io"
+languageCode = "en"
+title = "Bla~ Bla~"
+theme = "kiss"
+copyright = "&copy; <a href=\"https://github.com/Analyse4\">Zehua Lu</a> 2019"
+disqusShortname = "analyse4"
+googleAnalytics = ""
+# Number of posts per page
+Paginate = 5
+enableRobotsTXT = true
+
+[params.features]
+disqusOnDemand = true  # Load Disqus comments on click
+
+[params.assets]
+customCSS = ["css/custom.css"]
+
+[params.rss]
+
+includeContent = true # Includes whole content in rss
+authorName = "Zehua Lu" # Site author's full name
+authorEmail = "analysek4@gmail.com"
+
+[params.info]
+adsense = "" # Adsense ID (ID only, without ca-pub-)
+enableSocial = false # Adds OpenGraph and Twitter cards
+homeTitle = "" # Title for home page
+poweredby = true # Adds powered by Hugo and Kiss below Copyright section
+related = true # Includes related articles
+
+[params.opengraph.facebook]
+admins = [] # array of Facebook IDs
+appID = ""
+pageID = ""
+
+[params.opengraph.twitter]
+page = "" # Twitter Page username. If not set, params.social.twitter will be used.
+
+[params.social]
+
+twitter = "analysek4"
+github = "Analyse4"
+email = "analysek4@gmail.com"
+linkedin = ""
+gitlab = "analysek4"
+instagram = ""
+codepen = ""
+facebook = ""
+
+[params.social.config]
+platforms = ["email","twitter","github","gitlab"]
+
+[params.matomoAnalytics]
+siteID = 1
+rootURL = "//matomo.example.com/"
+
+[params.fathomAnalytics]
+rootURL = "//fathom.example.com/"
+
+[taxonomies]
+tag ="tags"
+
+[blackfriday]
+hrefTargetBlank = true
+
