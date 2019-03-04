@@ -1,7 +1,6 @@
 ---
 title: "The Journey of Minikube"
 date: 2019-03-04T17:23:34+08:00
-draft: true
 tags:
 - "kubernetes"
 ---
